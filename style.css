@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgb(233, 232, 232);
+ }
+ 
+ .container {
+   text-align: center;
+ }
+ 
+ h1,h2{
+   margin-bottom: 20px; 
+   font-size: 60px;
+ }
+
+/* #dice {
+  margin-bottom: 20px; 
+   font-size: 30px;
+} */
+
+ p {
+   margin-bottom: 20px; 
+   font-size: 30px;
+ }
+ 
+ button {
+   width: 80px;
+   height: 40px;
+   font-size: 20px;
+   cursor: pointer;
+   border-radius: 4px;
+   box-shadow: 0 6px rgb(1, 1, 95);
+   background: blue;
+   color: white;
+ }
+
+ button:hover {
+  opacity: .7;
+ }
+
+ button:active {
+  transform: translateY(5px);
+  box-shadow: 0 1px rgb(1, 1, 95);
+
+ }
+ 
+ ad {
+   text-align: center;
+ }
+ 
+ footer {
+   text-align: center;
+ }
+ 

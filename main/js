@@ -1,0 +1,31 @@
+'use strict';
+
+{
+
+let dice = document.getElementById('dice');
+let Dice = document.getElementById('Dice');
+
+document.querySelector('button').addEventListener('click', () =>{
+  let num1 = Math.floor(Math.random() * 6 ); //0から5の数字を出す。
+  let num2 = Math.floor(Math.random() * 6 ); //0から5の数字を出す。
+  // console.log(num1, num2);
+
+const dices = ['「1」', '「2」', '「3」', '「4」', '「5」', '「6」'];
+  dice.textContent = `さいころ1の目${dices[num1]}`;
+
+const Dices = ['「1」', '「2」', '「3」', '「4」', '「5」', '「6」'];
+  Dice.textContent = `さいころ2の目${Dices[num2]}`;
+
+// let sum = num1 + num2;
+// console.log(sum);
+sum.textContent = `合計「${(num1 + 1) + (num2 + 1)}」`;
+
+if((num1 + num2 + 2) % 2 == 0 ){ //偶数なら
+result.textContent = '丁';
+} else { //奇数なら
+result.textContent = '半';
+
+}
+});
+
+}
